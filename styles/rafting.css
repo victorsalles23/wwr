@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Serif:wght@700&display=swap');
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+body {
+    
+    position: relative;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+    
+    header{
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1500px;
+    background-color: aquamarine;
+
+}
+ 
+main {
+    background-color: #f2f2f2;
+    
+}
+
+h1 {
+    color:  #22577a;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    
+}
+
+.navigation {
+    display: flex;
+    list-style: none;  
+    
+}
+
+.navigation li {
+    flex: 1 1 50%;
+    display: block;
+    color: navy;
+    padding: 3px;
+    text-decoration: none;
+    border: 1px solid #000;
+    width: 100px;
+    text-align: center;
+
+  
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.contact {
+    text-align: center;
+    background-color: aqua;
+    color: #22577a;
+}
+
+.instructors  {
+    text-align: right;
+    background-color: aqua;
+    color: #000;
+}
+
+
+.men {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: aqua;
+}
+
+.men img{
+    width: 300px;
+    border:  10px solid aqua;
+    padding: 10px;
+        
+ }
+
+.men h5 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #22577a;
+    
+}
+
+.map {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+    float: right;
+
+}
+
+form {
+    float: left;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr;
+    margin:  0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr ;
+    
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    position: relative;
+
+}
+
+legend {
+    padding: 1rem;
+    color: navy;
+    font-size: 1.8em;
+}
+
+.message{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+input[type="checkbox"] {
+    width:22px ;
+    height: 22px ;
+    vertical-align: bottom ;
+}
+
+button {
+    width: auto;
+    margin: 8rem;
+    position: relative;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+    
+button:hover {
+    background-color: darkcyan;
+
+}
+
+.map {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height:300%;
+    top: 70px;
+    
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+
+}
+
+.message {
+    flex: 2;
+}
+
+.infomap {
+    flex: 2;
+    background-color: #9aa112;
+}
+
+.info {
+    position: relative;
+    text-align: center;
+    
+}
+.map iframe{
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    max-width: 500px;  
+}
+
+.hero h2 {
+    width: auto; 
+    top: 30px;
+    right: 100px;
+    color:  #22577a;
+    opacity: .9;
+    background-color: #c7f9cc;;
+}
+
+.hero {
+    position: relative;
+    margin-top: 1rem;
+}
+
+
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    right: auto;
+    margin: 10px;
+    border: 1px;
+    padding: 10px;
+    background-color: #f7f9c8;
+    color: #22577a;
+    opacity: .7;
+}
+
+.hero article img {
+    width: 130px;
+    height: auto;
+    float: left;
+}
+
+.hero img i#text {
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+}
+
+ h2  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: #22577a;
+}
+
+.history {
+     background-color: #c7f9cc;
+}
+
+.box {
+    display: flex;
+   }
+
+.box img { 
+    width: 180px;
+    position: relative;
+}
+
+.adventure {
+    background-color: #57cc99;
+}
+
+ .river img {
+    display: inline-flex;
+    width: 150px;
+    
+    
+}
+
+footer {    
+	margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+    
+.social{
+    text-decoration:none;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}

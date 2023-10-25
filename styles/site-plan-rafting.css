@@ -1,0 +1,64 @@
+000000
+@import url('https://fonts.googleapis.com/css2? family= Cagliostro & family= Nunito+Sans:opsz,wght@6..12,300 & family= Public+Sans:wght@200 &f');
+
+:root{ 
+    --primary-color:#57cc99;
+    --secondary-color: #38a3a5;
+    --accent1-color: #c7f9cc;
+    --accent2-color: #22577a;
+
+    --heading-font: 'Cagliostro', serif;
+    --paragraph-font: 'Nunito+Sans', serif;
+
+    --nav-background-color: #57cc99;
+    --nav-link-color:#38a3a5;
+    --nav-hover-link-color:#c7f9cc;
+    --nav-hover-background-color: #22577a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--paragraph-font); 
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: var(--secondary-color);
+    padding: 25px; 
+}
+
+section{
+    margin-bottom: 20px;
+    padding: 20px;0
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+
