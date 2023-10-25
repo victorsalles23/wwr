@@ -19,7 +19,7 @@ body {
     padding: 0;
 }
     
-    header{
+header{
     margin: 1rem auto;
     display: flex;
     align-items: center;
@@ -270,16 +270,48 @@ button:hover {
     text-align: center;
 }
 
+
+.come #text {
+    position: relative;
+    left: 10px;
+    background-color: #c7f9cc;
+    color: #22577a;
+}
+.come img{
+    width: 100%;
+    height: auto;
+}
+    
  h2  {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    color: #22577a;
+    color: #fff;
 }
 
 .history {
      background-color: #c7f9cc;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 300px; 
+    height: 200px;
+    max-width: 100%;
+}
+
+.photo p {
+    margin-top: 10px; 
 }
 
 .box {
